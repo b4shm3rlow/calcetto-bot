@@ -16,6 +16,8 @@ For run locally:
  python bot.py
 ```
 # Usage
+The bot can be used in groups chat and private chat.
+List the off the actually command available:
 ```bash
  /newmatch <descrizione>: crea un nuovo programma partita (ad esempio campo e orario di gioco)
  /editmatch <descrizione>: modifica il programma della partita
