@@ -16,6 +16,26 @@ For run locally:
  python bot.py
 ```
 # Usage
-
+```bash
+ /newmatch <descrizione>: crea un nuovo programma partita (ad esempio campo e orario di gioco)
+ /editmatch <descrizione>: modifica il programma della partita
+ /presente: aggiungi te stesso per la partita
+ /guest <nome>: per aggiungere un partecipante non presente in questo gruppo
+ /remove <nome>: per rimuovere un partecipante dalla partita
+ /info: mostra le informazioni della partita
+ /convocati: lista delle persone segnati presente
+ /recap: mostra le info e partecipanti della partita
+ /endmatch: per chiudere la partita
+```
+"/help: ritorna i comandi utili\n"
+                              "/newmatch <descrizione>: crea un nuovo programma partita (ad esempio campo e orario di gioco)\n"
+                              "/editmatch <descrizione>: modifica il programma della partita\n"
+                              "/presente: aggiungi te stesso per la partita\n"
+                              "/guest <nome>: per aggiungere un partecipante non presente in questo gruppo\n"
+                              "/remove <nome>: per rimuovere un partecipante dalla partita\n"
+                              "/info: mostra le informazioni della partita\n"
+                              "/convocati: lista delle persone segnati presente\n"
+                              "/recap: mostra le info e partecipanti della partita\n"
+                              "/endmatch: per chiudere la partita\n")
 # Credits
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
