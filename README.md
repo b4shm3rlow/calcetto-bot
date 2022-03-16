@@ -1,8 +1,7 @@
 ## Calcetto-bot
+![alt text](https://github.com/b4shm3rlow/calcetto-bot/blob/main/source/calcetto.jpg?raw=true)
 telegram bot for programming match with friends. More update will be available in the future. New idea and tips are welcome :)
-.. image:: https://img.shields.io/pypi/pyversions/python-telegram-bot.svg
-   :target: https://pypi.org/project/python-telegram-bot/
-   :alt: Supported Python versions
+
 ## Setup
 You can install or upgrade python-telegram-bot with:
 ```bash
