@@ -30,4 +30,7 @@ List the off the actually command available:
  /endmatch: per chiudere la partita
 ```
 # Credits
+
+- @b4shm3rlow
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
