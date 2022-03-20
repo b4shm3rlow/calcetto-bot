@@ -19,18 +19,17 @@ For run locally:
 The bot can be used in groups chat and private chat.
 List the off the actually command available:
 ```bash
- /newmatch <descrizione>: crea un nuovo programma partita (ad esempio campo e orario di gioco)
- /editmatch <descrizione>: modifica il programma della partita
+ /newmatch : crea un nuova partita
+ /info <descrizione>: modifica il programma della partita (ad esempio con luogo orario ecc.)
  /presente: aggiungi te stesso per la partita
- /guest <nome>: per aggiungere un partecipante non presente in questo gruppo
+ /guest <nome>: per aggiungere un partecipante non presente nel gruppo telegram
  /remove <nome>: per rimuovere un partecipante dalla partita
- /info: mostra le informazioni della partita
- /convocati: lista delle persone segnati presente
+ /presenti: lista delle persone segnati presente
  /recap: mostra le info e partecipanti della partita
  /endmatch: per chiudere la partita
 ```
 # Credits
 
-- @b4shm3rlow
+- ![alt text](https://github.com/b4shm3rlow)
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
