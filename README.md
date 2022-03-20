@@ -30,6 +30,6 @@ List the off the actually command available:
 ```
 # Credits
 
-- ![alt text](https://github.com/b4shm3rlow)
+- ![@b4shm3rlow](https://github.com/b4shm3rlow)
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
