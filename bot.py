@@ -174,10 +174,11 @@ def main() -> None:
     dispatcher.add_handler(MessageHandler(Filters.command, unknown_command))
     
     logging.info("Successfully initialized handlers")
-    #start the bot in the chat
-    updater.start_polling()
+    #start the bot locally
+    #updater.start_polling()
+    #for deployment
     updater.start_webhook(listen="0.0.0.0", port=int(PORT), url_path= BOT_TOKEN_API)
-    updater.bot.setWebhook()
+    updater.bot.setWebhook('https://calcetto-bot.herokuapp.com/' + BOT_TOKEN_API)
     #start_polling is non-blocking and will stop the bot gracefully
     updater.idle()
 
