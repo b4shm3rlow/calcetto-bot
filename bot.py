@@ -163,9 +163,9 @@ def main() -> None:
     dispatcher = updater.dispatcher
     #for different commands, add handler
     dispatcher.add_handler(CommandHandler('help',help_command))
-    dispatcher.add_handler(CommandHandler('newmatch', newMatch_command))
+    dispatcher.add_handler(CommandHandler('start', newMatch_command))
     dispatcher.add_handler(CommandHandler('info', editInfo_command))
-    dispatcher.add_handler(CommandHandler('endmatch', endMatch_command))
+    dispatcher.add_handler(CommandHandler('close', endMatch_command))
     dispatcher.add_handler(CommandHandler('presente', addSelf_command))
     dispatcher.add_handler(CommandHandler('guest', addGuest_command))
     dispatcher.add_handler(CommandHandler('remove', removePlayer_command))
