@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO,format='%(asctime)s - %(name)s - %(leveln
 logger = logging.getLogger(__name__)
 
 
-BOT_TOKEN_API = 'YOUR-API-TOKEN'
+BOT_TOKEN_API = '5087762589:AAGGGQrKAn0IxVnnp2p1IOb0d-OcaZbQwoc'
 PORT = int(os.environ.get('PORT', 5555))
 #costant
 SCHEDULE, SELF, GUEST = range(3)
