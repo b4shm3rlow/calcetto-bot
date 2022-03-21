@@ -34,10 +34,10 @@ def help_command(update, context):
 def newMatch_command(update: Update, context: CallbackContext) -> str:
     """adding a new match with description"""
     if context.chat_data:
-        update.effective_message.reply_text(f'Partita già inziata')
+        update.message.reply_text(f'Partita già inziata')
     elif not context.args:
         context.chat_data[SCHEDULE] = "<Informazioni partita non aggiornate>"
-        update.effective_message.reply_text('⚽ Nuova partita in programma...')
+        update.message.reply_text('⚽ Nuova partita in programma...')
     '''else:
         description = " ".join(context.args)
         update.message.text = description
