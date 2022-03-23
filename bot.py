@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO,format='%(asctime)s - %(name)s - %(leveln
 logger = logging.getLogger(__name__)
 
 
-BOT_TOKEN_API = '5087762589:AAGGGQrKAn0IxVnnp2p1IOb0d-OcaZbQwoc'
+BOT_TOKEN_API = 'YOURTOKENAPI'
 PORT = int(os.environ.get('PORT', 5555))
 #costant
 SCHEDULE, SELF, GUEST = range(3)
@@ -178,7 +178,7 @@ def main() -> None:
     #updater.start_polling()
     #for deployment
     updater.start_webhook(listen="0.0.0.0", port=int(PORT), url_path= BOT_TOKEN_API)
-    updater.bot.setWebhook('https://calcetto-bot.herokuapp.com/' + BOT_TOKEN_API)
+    updater.bot.setWebhook('yourappdomain' + BOT_TOKEN_API)
     #start_polling is non-blocking and will stop the bot gracefully
     updater.idle()
 
