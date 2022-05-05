@@ -19,7 +19,7 @@ For run locally:
 ```
 # Usage
 The bot can be used in groups chat and private chat.
-List the off the actually command available:
+List of the actually command available:
 ```bash
  /newmatch : crea un nuova partita
  /info <descrizione> : modifica il programma della partita (ad esempio con luogo orario ecc.)
